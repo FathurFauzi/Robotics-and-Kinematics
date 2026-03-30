@@ -10,3 +10,5 @@ Then in this semester, my college subject was about electronics, but i need to s
 Turns out, Trigonometry was not that hard, only at the begining that i'm confused and moments later i can understand it.
 
 And now i'm in love with that subject, that's when i found out that this subject was a core to almost all of things that hman made, inclding electric circuitry. And then an idea came to my mind, maybe i can learn the next step of this so i can make it as my added skills. that's when i turns out, trigonometry are needed to kinematics, and we need to know kinematics to run a robot. As long as i knew, robotics are a field that have a low competition, and i decided to go deeper into this field.
+
+$$\color{#00FF00}{\theta_1} = \color{#FF00FF}{\arctan}\left(\frac{1}{\color{#00FFFF}{x}}\right)$$

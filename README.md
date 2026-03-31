@@ -15,7 +15,9 @@ In this quotes, we know that in Kinematics, we will learn about geometry, positi
 
 
 - Forward Kinematics (FK) : A calculation to turn angles into a certain coordinates 
+
 $${ \color{#2eb82e} \theta_1 + \theta_2 + \dots + \theta_n } \to \left( { \color{#de3931} x }, { \color{#32cd32} y }, { \color{#33e2f2} z } \right)$$
+
 - Inverse Kinematics (IK) : The oposite of FK, turning coordinates into angles 
 
 $${ \left( { \color{#de3931} x }, { \color{#32cd32} y }, { \color{#33e2f2} z } \right) \to  \color{#2eb82e} \theta_1 + \theta_2 + \dots + \theta_n }$$ 

@@ -15,10 +15,9 @@ In this quotes, we know that in Kinematics, we will learn about geometry, positi
 
 
 - Forward Kinematics (FK) : A calculation to turn angles into a certain coordinates 
-${\color{green}\theta_1+\theta_2+....+ \theta_n }\to \left( {\color{#de3931}x},{\color{lime}y}, {\color{#33e2f2}z} \right)$ 
-
+$${ \color{#2eb82e} \theta_1 + \theta_2 + \dots + \theta_n } \to \left( { \color{#de3931} x }, { \color{#32cd32} y }, { \color{#33e2f2} z } \right)$$
 - Inverse Kinematics (IK) : The oposite of FK, turning coordinates into angles 
-$\left( {\color{#de3931}x},{\color{lime}y}, {\color{#33e2f2}z} \right) \to {\color{green}\theta_1+\theta_2+....+ \theta_n }$ </div> 
+$\left( {\color{#de3931}x},{\color{lime}y}, {\color{#33e2f2}z} \right) \to {\color{2eb82e}\theta_1+\theta_2+....+ \theta_n }$ </div> 
 
 Now you know the basic concept of Kinematics and difference between FK and IK. Now let's dive into the fundamental concept of robotic : Degree of freedom [(DOF)]()
 

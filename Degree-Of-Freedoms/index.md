@@ -2,8 +2,8 @@
 
 $$
 \begin{align}
-x &= r_1\cdot\cos(\theta_1)+r_2\cdot\cos(\theta_1+\theta_2)\tag{2.1}\\
-y &= r_1\cdot\sin(\theta_1)+r_2\cdot\sin(\theta_1+\theta_2)\tag{2.2}
+x &= r_1\cdot\cos(\theta_1)+r_2\cdot\cos(\theta_1+\theta_2)\phantom{12345}\\
+y &= r_1\cdot\sin(\theta_1)+r_2\cdot\sin(\theta_1+\theta_2)\phantom{12345}
 \end{align}
 $$
 
@@ -24,7 +24,7 @@ $$
 Substitute this with our variables:
 
 $$
-C^2 = r_1^2 + r_2^2 - 2r_1r_2 \cdot \cos(\alpha) \tag{2.3}
+C^2 = r_1^2 + r_2^2 - 2r_1r_2 \cdot \cos(\alpha) \phantom{123456}(3)
 $$
 
 We know that $C$ is the distance between the base and the tip of the arm. Using the Pythagorean theorem:

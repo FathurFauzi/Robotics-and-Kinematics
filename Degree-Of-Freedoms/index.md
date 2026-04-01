@@ -21,18 +21,19 @@ $$x^2+y^2=r_1^2+r_2^2-2\cdot\cos(\alpha)\tag{2.3.1}$$
 
 we want to calculate $\theta_2$, not $\alpha$. From the picture, we know that $\theta_2$ is a angle of $r_2$ and a line that parallel with $r_1$
 
-when 2 edges are parallel, we know that the angle between them is ${180^\circ}$. As we seen before, $r_1$ is paralel with those line, and we also know the angle between $r_1$ and $r_2$ is $\alpha$, and it need $\theta_2$ more degree to make $r_1$ and $r_2$ parallel. so the equation is $$180=\alpha+\theta_2$$ 
+when 2 edges are parallel, we know that the angle between them is ${180^\circ}$. As we seen before, $r_1$ is paralel with those line, and we also know the angle between $r_1$ and $r_2$ is $\alpha$, and it need $\theta_2$ more degree to make $r_1$ and $r_2$ parallel. so the equation is $$180^\circ=\alpha+\theta_2$$ 
 put $-\theta_2$ to both sides of equations to find the value of $\alpha$
-$$180-\theta_2=\alpha+(-\theta_2)+\theta_2$$ 
+$$180^\circ-\theta_2=\alpha+(-\theta_2)+\theta_2$$ 
 
 Same variabels cancel each other, so:
-$$180-\theta_2=\alpha$$
+$$180^\circ-\theta_2=\alpha$$
 
 Swab both sides of equations so it can be easier to read
-$$\alpha=180-\theta_2$$
+$$\alpha=180^\circ-\theta_2$$
 
 Put it in the last equations:
-$$x^2+y^2=r_1^2+r_2^2-2\cdot\cos(180-\theta_2)\tag{2.3.2}$$
-Because we want to find $\theta_2$, we can add $-\alpha$ to both side of equations to determine $\theta_2$ $${180^\circ}+(-\alpha)=\alpha+(-\alpha)+\theta_2$$
+$$x^2+y^2=r_1^2+r_2^2-2\cdot\cos(180^\circ-\theta_2)\tag{2.3.2}$$
+Because $\theta_2$ is a variable (we don't know the value inside of it), we need to seperate ${180^\circ}$ from $\theta_2$ using:
+ 
 
 

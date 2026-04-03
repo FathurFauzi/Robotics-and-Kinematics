@@ -1,12 +1,46 @@
 ## Forward Kinematic
 
+Our first equations was:
 $$
-\text{[1.1]} \quad x = r_1\cdot\cos(\theta_1)+r_2\cdot\cos(\theta_1+\theta_2)
+ \quad x = r_1\cdot\cos(\theta_1)+r_2\cdot\cos(\theta_1+\theta_2)
 $$
 
 $$
-\text{[1.2]} \quad y = r_1\cdot\sin(\theta_1)+r_2\cdot\sin(\theta_1+\theta_2)
+ \quad y = r_1\cdot\sin(\theta_1)+r_2\cdot\sin(\theta_1+\theta_2)
 $$
+
+We will seperate $\theta_1$ and $\theta_2$ for further calculations. to seperate them, we're gonna use the equation below:
+$$
+\cos(\theta_1+\theta_2)=cos(\theta_1)\cdot\cos(\theta_2)-sin(\theta_1)\cdot\sin(\theta_2)
+$$
+$$
+\sin(\theta_1+\theta_2)=\cos(\theta_1)\cdot\cos(\theta_2)-sin(\theta_1)\cdot\sin(\theta_2)
+$$
+put it on the equations:
+
+<div style="overflow-y:scroll;">
+
+$$
+ \quad x = r_1\cdot\cos(\theta_1)+r_2\cdot\left({\color{27AE60}{cos(\theta_1)\cdot\cos(\theta_2)-sin(\theta_1)\cdot\sin(\theta_2)}}\right)
+$$
+
+$$
+ \quad y = r_1\cdot\sin(\theta_1)+r_2\cdot\left({\color{27AE60}{\cos(\theta_1)\cdot\cos(\theta_2)-sin(\theta_1)\cdot\sin(\theta_2)}}\right)
+$$
+</div>
+
+Then we multiply $r_2$ with the brackets:
+
+<div style="overflow-y:scroll;">
+
+$$
+ \quad x = r_1\cdot\cos(\theta_1)+{\color{27AE60}{r_2}}\cdot\cos(\theta_1)\cdot\cos(\theta_2)-{\color{27AE60}{r_2}}\cdot\sin(\theta_1)\cdot\sin(\theta_2)
+$$
+
+$$
+ \quad y = r_1\cdot\sin(\theta_1)+{\color{27AE60}{r_2}}\cdot\cos(\theta_1)\cdot\cos(\theta_2)-{\color{27AE60}{r_2}}\cdot\sin(\theta_1)\cdot\sin(\theta_2)
+$$
+</div>
 
 ## Inverse Kinematic
 
@@ -91,7 +125,7 @@ $$
 Finally we'll get:
 
 >$$
-\text{[2.3.3]} \quad  {\color{27AE60}{\theta_2}}= {\color{27AE60}{\cos^{-1}}} \left(\frac{x^2 + y^2 {- r_1^2 - r_2^2}}{2r_1r_2}\right)
+\color{D35400}{\text{[2.3.3]} \quad  {\color{27AE60}{\theta_2}}= {\color{27AE60}{\cos^{-1}}} \left(\frac{x^2 + y^2 {- r_1^2 - r_2^2}}{2r_1r_2}\right)}
 $$
 
-We're gonna use this equation from now on, so i hope you can get along with this from now.
+We're gonna use this equation from now on, so i hope you can get along with this.

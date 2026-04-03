@@ -65,3 +65,5 @@ $$
   P_y &= \sin(\theta) \quad &\dots\dots 
 \end{aligned}\tag{[1.2]}
 $$
+$$ P_x = \cos(\theta) \quad \dots\dots \tag{[1.1]} $$
+$$ P_y = \sin(\theta) \quad \dots\dots \tag{[1.2]} $$

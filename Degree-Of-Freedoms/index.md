@@ -59,6 +59,7 @@ $$
 $$
 
 Now, our goal is to turn the equations to find $\theta_2$, to find it, we subtract both side of equation with $r_1^2+r_2^2$ first:
+
 $$
 \text{[2.3.3]} \quad {\color{#27AE60}{(- r_1^2 - r_2^2)}}+x^2 + y^2 = {\color{#27AE60}{(- r_1^2 - r_2^2)}} + r_1^2 + r_2^2 { + 2r_1r_2 \cdot \cos(\theta_2)}
 $$
@@ -76,16 +77,19 @@ $$
 $$
 
 the equation will be:
+
 $$
 \text{[2.3.3]} \quad \frac{x^2 + y^2 {- r_1^2 - r_2^2}}{\color{#27AE60}{2r_1r_2}} ={ \cos(\theta_2)}
 $$
 
 To calculate the angle of $\theta_2$, we will use $\cos^{-1}$:
+
 $$
 \text{[2.3.3]} \quad {\color{27AE60}{\cos^{-1}}} \left(\frac{x^2 + y^2 {- r_1^2 - r_2^2}}{2r_1r_2}\right) = {\color{27AE60}{\cos^{-1}}}( \cos(\theta_2))
 $$
 
 Finally we'll get:
+
 >$$
 \text{[2.3.3]} \quad  {\color{27AE60}{\theta_2}}= {\color{27AE60}{\cos^{-1}}} \left(\frac{x^2 + y^2 {- r_1^2 - r_2^2}}{2r_1r_2}\right)
 $$

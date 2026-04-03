@@ -31,12 +31,10 @@ $$
 </div>
 
 
-Now we do the inverse of putting $r_2$ to $\cos(\theta_1)$ and $\sin(\theta_1)$
-
 <div style="overflow-y:scroll;">
 
 $$
- \quad x = r_1\cdot\cos(\theta_1)+r_2\cdot\left({\color{27AE60}{\cos(\theta_2)}}\right)cos(\theta_1)-sin(\theta_1)\left(\cdot\sin(\theta_2)\right)
+ \quad x = r_1\cdot\cos(\theta_1)+r_2\cdot\left({\color{27AE60}{cos(\theta_1)\cdot\cos(\theta_2)-sin(\theta_1)\cdot\sin(\theta_2)}}\right)
 $$
 
 $$
@@ -45,6 +43,8 @@ $$
  
 </div>
 
+
+Now we do the inverse of putting $r_2$ to $\cos(\theta_1)$ and $\sin(\theta_1)$
 
 <div style="overflow-y:scroll;">
 

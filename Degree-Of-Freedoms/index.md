@@ -25,7 +25,7 @@ $$
 Substitute this with our variables:
 
 $$
-\text{[3]} \quad C^2 = r_1^2 + r_2^2 - 2r_1r_2 \cdot \cos(\alpha)
+\text{[3]} \quad C^2 = {\color{#27AE60}{ r_1^2 + r_2^2 - 2r_1r_2}} \cdot \cos(\alpha)
 $$
 
 We know that $C$ is the distance between the base and the tip of the arm. Using the Pythagorean theorem:
@@ -37,7 +37,7 @@ $$
 We can substitute $C^2$ in equation [3] with those theorem:
 
 $$
-\text{[2.3.1]} \quad x^2 + y^2 = r_1^2 + r_2^2 - 2r_1r_2 \cdot \cos(\alpha)
+\text{[2.3.1]} \quad {\color{#27AE60}{x^2 + y^2}} = r_1^2 + r_2^2 - 2r_1r_2 \cdot \cos(\alpha)
 $$
 
 We want to calculate $\theta_2$, not $\alpha$. From the geometry, we know that:
@@ -46,14 +46,48 @@ $$
 \text{[2.3.2a]} \quad \alpha = 180^\circ - \theta_2
 $$
 
-Put it in the last equation:
+Put it in the previous equation:
 
 $$
-\text{[2.3.2]} \quad x^2 + y^2 = r_1^2 + r_2^2 - 2r_1r_2 \cdot \cos(180^\circ - \theta_2)
+\text{[2.3.2]} \quad x^2 + y^2 = r_1^2 + r_2^2 - 2r_1r_2 \cdot \cos({\color{27AE60}{180^\circ - \theta_2}})
 $$
 
-Using the trigonometric identity $\cos(\text{**180°**} - \theta) = -\cos(\theta)$, we get:
+Using the trigonometric identity $\cos(\text{180°} - \theta) = -\cos(\theta)$, we get:
 
 $$
-\text{[2.3.3]} \quad x^2 + y^2 = r_1^2 + r_2^2 + 2r_1r_2 \cdot \cos(\theta_2)
+\text{[2.3.3]} \quad x^2 + y^2 = r_1^2 + r_2^2 {\color{#27AE60}{ + 2r_1r_2 \cdot \cos(\theta_2)}}
 $$
+
+Now, our goal is to turn the equations to find $\theta_2$, to find it, we subtract both side of equation with $r_1^2+r_2^2$ first:
+$$
+\text{[2.3.3]} \quad {\color{#27AE60}{(- r_1^2 - r_2^2)}}+x^2 + y^2 = {\color{#27AE60}{(- r_1^2 - r_2^2)}} + r_1^2 + r_2^2 { + 2r_1r_2 \cdot \cos(\theta_2)}
+$$
+
+Now we'll get
+
+$$
+\text{[2.3.3]} \quad x^2 + y^2 {\color{#27AE60}{- r_1^2 - r_2^2}} = { 2r_1r_2 \cdot \cos(\theta_2)}
+$$
+
+Divided both sides with $2r_1r_2$:
+
+$$
+\text{[2.3.3]} \quad \frac{x^2 + y^2 {- r_1^2 - r_2^2}}{\color{#27AE60}{2r_1r_2}} = \frac{{ 2r_1r_2 \cdot \cos(\theta_2)}}{\color{#27AE60}{2r_1r_2}}
+$$
+
+the equation will be:
+$$
+\text{[2.3.3]} \quad \frac{x^2 + y^2 {- r_1^2 - r_2^2}}{\color{#27AE60}{2r_1r_2}} ={ \cos(\theta_2)}
+$$
+
+To calculate the angle of $\theta_2$, we will use $\cos^{-1}$:
+$$
+\text{[2.3.3]} \quad {\color{27AE60}{\cos^{-1}}} \left(\frac{x^2 + y^2 {- r_1^2 - r_2^2}}{2r_1r_2}\right) = {\color{27AE60}{\cos^{-1}}}( \cos(\theta_2))
+$$
+
+Finally we'll get:
+>$$
+\text{[2.3.3]} \quad  {\color{27AE60}{\theta_2}}= {\color{27AE60}{\cos^{-1}}} \left(\frac{x^2 + y^2 {- r_1^2 - r_2^2}}{2r_1r_2}\right)
+$$
+
+We're gonna use this equation from now on, so i hope you can get along with this from now.

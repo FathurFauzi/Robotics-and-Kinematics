@@ -10,9 +10,11 @@ $$
 $$
 
 We will seperate $\theta_1$ and $\theta_2$ for further calculations. to seperate them, we're gonna use the equation below:
+
 $$
 \cos(\theta_1+\theta_2)=cos(\theta_1)\cdot\cos(\theta_2)-sin(\theta_1)\cdot\sin(\theta_2)
 $$
+
 $$
 \sin(\theta_1+\theta_2)=\cos(\theta_1)\cdot\cos(\theta_2)-sin(\theta_1)\cdot\sin(\theta_2)
 $$
@@ -30,22 +32,7 @@ $$
  
 </div>
 
-
-<div style="overflow-y:scroll;">
-
-$$
- \quad x = r_1\cdot\cos(\theta_1)+r_2\cdot\left({\color{27AE60}{cos(\theta_1)\cdot\cos(\theta_2)-sin(\theta_1)\cdot\sin(\theta_2)}}\right)
-$$
-
-$$
- \quad y = r_1\cdot\sin(\theta_1)+r_2\cdot\left({\color{27AE60}{\cos(\theta_1)\cdot\cos(\theta_2)-sin(\theta_1)\cdot\sin(\theta_2)}}\right)
-$$
- 
-</div>
-
-
-Now we do the inverse of putting $r_2$ to $\cos(\theta_1)$ and $\sin(\theta_1)$
-
+Then we're gonna multiply $r_2$ to the brackets
 <div style="overflow-y:scroll;">
 
 $$
@@ -54,6 +41,20 @@ $$
 
 $$
  \quad y = r_1\cdot\sin(\theta_1)+{\color{27AE60}{r_2}}\cdot\cos(\theta_1)\cdot\cos(\theta_2)-{\color{27AE60}{r_2}}\cdot\sin(\theta_1)\cdot\sin(\theta_2)
+$$
+
+</div>
+
+Now we do the inverse of putting $r_2$ to $\cos(\theta_1)$ and $\sin(\theta_1)$
+
+<div style="overflow-y:scroll;">
+
+$$
+ \quad x = \left(r_1+r_2\cdot\cos(\theta_2)\right){\cdot\color{27AE60}{\cos(\theta_1)}}-\left(r_2\cdot\sin(\theta_2)\right)\cdot{\color{27AE60}{\sin(\theta_1)}}
+$$
+
+$$
+ \quad y = \left(r_1+r_2\cdot\cos(\theta_2)\right)\cdot\cos(\theta_1)-r_2\cdot\sin(\theta_1)\cdot\sin(\theta_2)
 $$
 
 </div>

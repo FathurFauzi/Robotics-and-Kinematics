@@ -1,6 +1,7 @@
 ## Forward Kinematic
 
 Our first equations was:
+
 $$
  \quad x = r_1\cdot\cos(\theta_1)+r_2\cdot\cos(\theta_1+\theta_2)
 $$
@@ -18,6 +19,7 @@ $$
 $$
 \sin(\theta_1+\theta_2)=\cos(\theta_1)\cdot\cos(\theta_2)-sin(\theta_1)\cdot\sin(\theta_2)
 $$
+
 put it on the equations:
 
 <div style="overflow-y:scroll;">

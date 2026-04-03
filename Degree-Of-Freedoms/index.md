@@ -56,3 +56,11 @@ Using the trigonometric identity $\cos(180^\circ - \theta) = -\cos(\theta)$, we 
 $$
 x^2 + y^2 = r_1^2 + r_2^2 + 2r_1r_2 \cdot \cos(\theta_2) \tag{2.3.3}
 $$
+
+ai suggestions
+$$
+\begin{aligned}
+  P_x &= \cos(\theta) \quad &\dots\dots [1.1] \\
+  P_y &= \sin(\theta) \quad &\dots\dots [1.2]
+\end{aligned}
+$$

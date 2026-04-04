@@ -1,6 +1,7 @@
 ## Forward Kinematic
 
 Our first equations was:
+
 $$
  \quad x = r_1\cdot\cos(\theta_1)+r_2\cdot\cos(\theta_1+\theta_2)
 $$
@@ -18,6 +19,7 @@ $$
 $$
 \sin(\theta_1+\theta_2) = \sin(\theta_1)\cdot\cos(\theta_2) + \cos(\theta_1)\cdot\sin(\theta_2)
 $$
+
 Put it on the equations:
 
 <div style="overflow-x: auto;">
@@ -60,16 +62,16 @@ $$
 
 </div>
 
-Now you can se,  under bracets in both x and y functions ? $(  r_1+r_2\cdot\cos(\theta_2) ) $ and $(r_2\cdot\sin(\theta_2))$.. they have the same function. we will gonna use this function far later, so i'm gonna keep it as:
+Now you can see that under bracets in both x and y functions ? $(  r_1+r_2\cdot\cos(\theta_2) ) $ and $(r_2\cdot\sin(\theta_2))$.. they have the same function. we will gonna use this function far later, so i'm gonna keep it as:
 
 ><div style="overflow-x: auto; padding: 10px 0;">
 >
 >$$
->(  r_1+r_2\cdot\cos(\theta_2) ) ={\color{D35400}{k_1}}
+>(  r_1+r_2\cdot\cos(\theta_2) ) ={\color{#D35400}{k_1}}
 >$$
 >
 >$$
->\quad(r_2\cdot\sin(\theta_2))\quad={\color{D35400}{k_2}}
+>\quad(r_2\cdot\sin(\theta_2))\quad={\color{#D35400}{k_2}}
 >$$
 
 ></div>
@@ -125,6 +127,7 @@ $$
 $$
 
 Now, our goal is to turn the equations to find $\theta_2$, to find it, we subtract both side of equation with $r_1^2+r_2^2$ first:
+
 $$
 \text{[2.3.3a]} \quad {\color{#27AE60}{(- r_1^2 - r_2^2)}} + x^2 + y^2 = {\color{#27AE60}{(- r_1^2 - r_2^2)}} + r_1^2 + r_2^2 + 2r_1r_2 \cdot \cos(\theta_2)
 $$

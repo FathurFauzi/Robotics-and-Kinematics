@@ -62,7 +62,7 @@ $$
 
 </div>
 
-Now you can see that under bracets in both x and y functions ? ( $ r_1+r_2\cdot\cos(\theta_2)$ ) and ($r_2\cdot\sin(\theta_2)$).. they have the same function. we will gonna use this function far later, so i'm gonna keep it as:
+Now you can see that under bracets in both x and y functions ? $( r_1+r_2\cdot\cos(\theta_2) )$ and $(r_2\cdot\sin(\theta_2))$.. they have the same function. we will gonna use this function far later, so i'm gonna keep it as:
 
 ><div style="overflow-x: auto; padding: 10px 0;">
 >

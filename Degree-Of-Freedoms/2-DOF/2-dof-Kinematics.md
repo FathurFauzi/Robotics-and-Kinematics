@@ -85,6 +85,7 @@ Geometrically, k1 and k2 will look like this
 While k1 is x parameters but rotated by $\theta_1$, and k2 is y parameters but rotated by $\theta_2$..
 
 Now compare to this picture :
+
 ![Picture k, but in different aproach](../../Media/X%20and%20Y%20version.PNG)
 
 k1 and k2 was sharing the same hipotenuse and El2, their difference was only in red and green line.. Simply, k1 is $X_s$, but was rotated by $\theta_1$, and so does k2. This explanations will be important, because we can calculate angle of $\theta_1$ by subtracting k1 and k2 angle with x and y angle.. 
@@ -93,9 +94,10 @@ k1 and k2 was sharing the same hipotenuse and El2, their difference was only in 
 
 First we need to find the angle between $r_1$ and $r_2$ ($\alpha$).
 
-![Picture](../../Media/angle%20definition.PNG)
 
 As on the prior picture, imagine $r_1$ and $r_2$ were two edges of a triangle, and the other edge ($C$) is the hypotenuse.
+
+![Picture](../../Media/angle%20definition.PNG)
 
 Because $\alpha$ (angle in the middle of r1 and r2) is not **90°**, we cannot find $C$ or hypotenuse using ordinary Pythagoras. Instead, we are going to use the Law of Cosines:
 
@@ -201,6 +203,7 @@ Remember ${\color{#D35400}{k_1}}$ and ${\color{#D35400}{k_2}}$? That formula is 
 To help you understand why it subtracted, see this figure:
 
 ![Angle Subtraction](../../Media/polar%20and%20rect%20subtraction.PNG)
+
 $\theta_{pol} $ is result of $\tan^{-1}(\frac{k_2}{k_1})$, while $\theta_{rect}$ is result of $\tan^{-1}(\frac{y}{x})$. To find $\theta_1$, whic is the difference between $\theta_{rect}$ and $\theta_{pol}$ we can subtract them.
 
 So, the summary of this subject is:
@@ -226,6 +229,7 @@ r2\cdot\sin(\theta_2)
 $$
 
 - Hence $\theta_1$ is
+
 $$
 \tan^{-1}(\frac{y}{x})-\tan^{-1}(\frac{k_2}{k_1})
 $$

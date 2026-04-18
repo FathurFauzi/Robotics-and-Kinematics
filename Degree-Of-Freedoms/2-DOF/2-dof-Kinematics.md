@@ -80,18 +80,24 @@ Now you can see that under bracets in both x and y functions ? $( r_1+r_2\cdot\c
 
 Geometrically, k1 and k2 will look like this
 
-![Picture K1]()
-This equations is one of the fundamental of robotics. So, i hope you can get along with this as soon as possible...
+![Picture K1](../../Media/K1%20and%20K2%20versions.PNG)
+
+While k1 is x parameters but rotated by $\theta_1$, and k2 is y parameters but rotated by $\theta_2$..
+
+Now compare to this picture :
+![Picture k, but in different aproach](../../Media/X%20and%20Y%20version.PNG)
+
+k1 and k2 was sharing the same hipotenuse and El2, their difference was only in red and green line.. Simply, k1 is $X_s$, but was rotated by $\theta_1$, and so does k2. This explanations will be important, because we can calculate angle of $\theta_1$ by subtracting k1 and k2 angle with x and y angle.. 
 
 ## Inverse Kinematic
 
 First we need to find the angle between $r_1$ and $r_2$ ($\alpha$).
 
-![Picture]()
+![Picture](../../Media/angle%20definition.PNG)
 
-As on the picture, imagine $r_1$ and $r_2$ were two edges of a triangle, and the other edge ($C$) is the hypotenuse.
+As on the prior picture, imagine $r_1$ and $r_2$ were two edges of a triangle, and the other edge ($C$) is the hypotenuse.
 
-Because $\alpha$ is not **90°**, we cannot find $C$ using ordinary Pythagoras. Instead, we are going to use the Law of Cosines:
+Because $\alpha$ (angle in the middle of r1 and r2) is not **90°**, we cannot find $C$ or hypotenuse using ordinary Pythagoras. Instead, we are going to use the Law of Cosines:
 
 $$
 \quad C^2 = A^2 + B^2 - 2AB \cdot \cos(\alpha)
@@ -115,7 +121,7 @@ $$
  \quad {\color{#27AE60}{x^2 + y^2}} = r_1^2 + r_2^2 - 2r_1r_2 \cdot \cos(\alpha)
 $$
 
-We want to calculate $\theta_2$, not $\alpha$. From the geometry, we know that:
+We want to calculate $\theta_2$, not $\alpha$. From the picture, we know that:
 
 $$
  \quad \alpha = 180^\circ - \theta_2
@@ -189,5 +195,52 @@ After we get $\theta_2$, our next steps is to find $\theta_1$ . It actually much
 Remember ${\color{#D35400}{k_1}}$ and ${\color{#D35400}{k_2}}$? That formula is for this equations. To find $\theta_1$, we need to subtract angle of x and y resultant, and k1 and k2 resultant.
 
 >$$
->\theta_1 = \tan^{-1}(\frac{k_2}{k_1})-\tan^{-1}(\frac{k_2}{k_1})
+>\theta_1 = \tan^{-1}(\frac{y}{x})-\tan^{-1}(\frac{k_2}{k_1})
 >$$
+
+To help you understand why it subtracted, see this figure:
+
+![Angle Subtraction](../../Media/polar%20and%20rect%20subtraction.PNG)
+$\theta_{pol} $ is result of $\tan^{-1}(\frac{k_2}{k_1})$, while $\theta_{rect}$ is result of $\tan^{-1}(\frac{y}{x})$. To find $\theta_1$, whic is the difference between $\theta_{rect}$ and $\theta_{pol}$ we can subtract them.
+
+So, the summary of this subject is:
+- we can turn coordinate into angles using inverse Kinematics
+- to turn it, we must find $\theta_2$ first.
+- $\theta_2$ formula is 
+
+$$
+\cos^{-1} \left(\frac{x^2 + y^2 - r_1^2 - r_2^2}{2r_1r_2}\right)
+$$
+
+- then we need to find $\theta_1$. But to find it, we find k1 and k2 first.
+- k1 formula is 
+
+$$
+r_1+r2\cdot\cos(\theta_2)
+$$
+
+- while k2 formula is 
+
+$$
+r2\cdot\sin(\theta_2)
+$$
+
+- Hence $\theta_1$ is
+$$
+\tan^{-1}(\frac{y}{x})-\tan^{-1}(\frac{k_2}{k_1})
+$$
+
+>[!:bulb:tip]
+>you can multiply $\theta_2$ by (-1), Because it will make node between $r_1$ and $r_2$ higher than its Hipotenuse.. this layout was a standard to make a robot.
+
+this is $\theta_2$ when positive:
+![theta2 positive](../../Media/theta%202%20normally.PNG)
+
+and this is when $\theta_2$ negative:
+![theta2 negative](../../Media/theta%202%20when%20multiply%20by%20-1.PNG)..
+
+Now we Know how to make 2-dof Robot. Now we make it so we can manage ourselves the slope of the target [(3-DOF)](../3-DOF/3-dof-Kinematics.md).
+
+
+
+

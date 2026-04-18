@@ -23,7 +23,7 @@ $${ \color{#2eb82e} \theta_1 + \theta_2 + \dots + \theta_n } \to \left( { \color
 $${ \left( { \color{#de3931} x }, { \color{#32cd32} y }, { \color{#33e2f2} z } \right) \to  \color{#2eb82e} \theta_1 + \theta_2 + \dots + \theta_n }$$ 
 </div> 
 
-Now you know the basic concept of Kinematics and difference between FK and IK. Now let's dive into the fundamental concept of robotic : Degree of freedom [(DOF)](/Degree-Of-Freedoms/Forward_kinematic.md)
+Now you know the basic concept of Kinematics and difference between FK and IK. Now let's dive into the fundamental concept of robotic : Degree of freedom [(DOF)](/Degree-Of-Freedoms/2-DOF/2-dof-Kinematics.md)
 
 <!-- >[!NOTE]  
 > Highlights information that users should take into account, even when skimming.

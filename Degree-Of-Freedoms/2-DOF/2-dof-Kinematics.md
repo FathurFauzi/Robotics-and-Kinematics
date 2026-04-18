@@ -238,9 +238,11 @@ $$
 >you can multiply $\theta_2$ by (-1), Because it will make node between $r_1$ and $r_2$ higher than its Hipotenuse.. this layout was a standard to make a robot.
 
 this is $\theta_2$ when positive:
+
 ![theta2 positive](../../Media/theta%202%20normally.PNG)
 
 and this is when $\theta_2$ negative:
+
 ![theta2 negative](../../Media/theta%202%20when%20multiply%20by%20-1.PNG)..
 
 Now we Know how to make 2-dof Robot. Now we make it so we can manage ourselves the slope of the target [(3-DOF)](../3-DOF/3-dof-Kinematics.md).

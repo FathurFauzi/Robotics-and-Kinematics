@@ -234,7 +234,7 @@ $$
 \tan^{-1}(\frac{y}{x})-\tan^{-1}(\frac{k_2}{k_1})
 $$
 
->[!:bulb:tip]
+> [!TIP]
 >you can multiply $\theta_2$ by (-1), Because it will make node between $r_1$ and $r_2$ higher than its Hipotenuse.. this layout was a standard to make a robot.
 
 this is $\theta_2$ when positive:
